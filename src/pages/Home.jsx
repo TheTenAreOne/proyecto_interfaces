@@ -14,14 +14,6 @@ function Home() {
         </div>
       </div>
       <div className='row'>
-        <div className='col-6'>
-          <OneOptionButton buttonText='Vuelo'/>
-        </div>
-        <div className='col-6'>
-          <OneOptionButton buttonText='Bus'/>
-        </div>
-      </div>
-      <div className='row'>
         <TicketOptionsBox/>
       </div>
     </div>
