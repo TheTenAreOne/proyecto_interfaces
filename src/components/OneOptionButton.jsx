@@ -5,7 +5,12 @@ function OneOptionButton(props){
 
   return(
     <div>
-      <button type="button" class="btn btn-primary oneOptionButtonBig">{props.buttonText}</button>
+      {
+        props.ticketInfo === props.buttonText ?
+        <button type="button" className={"btn btn-primary oneOptionButtonBig"} onClick={()=>props.onClick(props.buttonText)} >{props.buttonText}</button>
+        :
+        <button type="button" className={"btn btn-primary oneOptionButtonBig unselectedButton"} onClick={()=>props.onClick(props.buttonText)}>{props.buttonText}</button>
+      }
     </div>
   );
 }
