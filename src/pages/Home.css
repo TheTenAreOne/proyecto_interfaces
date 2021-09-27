@@ -38,6 +38,16 @@ body{
   background-color: #65BDFF;
 }
 
+
+.ticketsDisplayBox{
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 90%;
+  border: 1px solid #FFF;
+  border-radius: 0.2rem;
+  background-color: red;
+}
+
 .seeBack{
   background-color: red
 }
