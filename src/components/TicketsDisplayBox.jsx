@@ -1,11 +1,12 @@
 
 import '../pages/Home.css';
+import TicketInfoBox from '../components/TicketInfoBox';
 
 function TicketsDisplayBox(props){
   return(
     <div className='container ticketsDisplayBox'>
       <div>
-        Llenen esto de tickets con bucle al presionar buscar
+        <TicketInfoBox />
       </div>
     </div>
   );
