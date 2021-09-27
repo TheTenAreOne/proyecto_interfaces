@@ -23,10 +23,19 @@ body{
 .oneOptionButtonBig{
   width: 90%;
   margin-top: 1rem;
+  border-color: #FFF;
+  background-color: #0091FF;
+}
+
+.searchButton{
+  width: 80%;
+  margin-top: 1rem;
+  border-color: #FFF;
+  background-color: #0091FF;
 }
 
 .unselectedButton{
-  background-color: grey;
+  background-color: #65BDFF;
 }
 
 .seeBack{

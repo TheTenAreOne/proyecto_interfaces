@@ -1,6 +1,7 @@
 
 import '../pages/Home.css';
 import OneOptionButton from './OneOptionButton';
+import SearchButton from './SearchButton';
 import CitySelectBox from './CitySelectBox';
 import DateSelectBox from './DateSelectBox';
 import React, { useState } from 'react';
@@ -16,7 +17,7 @@ function TicketOptionsBox(props){
 
   return(
     <div>
-      <div className='row seeBack'>
+      <div className='row'>
         <div className='col-6'>
           <OneOptionButton onClick={(data) => setTransportType(data) } ticketInfo={transportType} buttonText='Vuelo'/>
         </div>
@@ -24,7 +25,7 @@ function TicketOptionsBox(props){
           <OneOptionButton onClick={(data) => setTransportType(data) } ticketInfo={transportType} buttonText='Bus'/>
         </div>
       </div>
-      <div className='container ticketOptionsBox seeBack'>
+      <div className='container ticketOptionsBox'>
         <div className='row'>
           <div className='col'>
             <OneOptionButton onClick={(data) => setTicketType(data) } ticketInfo={ticketType} buttonText='Ida'/>
@@ -47,6 +48,11 @@ function TicketOptionsBox(props){
           </div>
           <div className='col'>
             <DateSelectBox labelText='Fecha vuelta'/>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col'>
+            <SearchButton buttonText='Buscar'/>
           </div>
         </div>
       </div>
