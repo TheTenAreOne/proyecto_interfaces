@@ -61,6 +61,15 @@ body{
   background-color: white;
 }
 
+.ticketBox{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 0.5rem;
+  border-style: solid;
+  border-radius: 0.3rem;
+  border-color: #B0B0B0;
+}
+
 .passengersSelectBox{
   margin-top: 2rem;
 }

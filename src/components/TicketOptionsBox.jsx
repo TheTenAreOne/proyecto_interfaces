@@ -14,7 +14,7 @@ function TicketOptionsBox(props){
   const [transportType, setTransportType] = useState('Vuelo');
   const [ticketType, setTicketType] = useState('Ida');
   const [cityOrigin, setCityOrigin] = useState('');
-  const [cityDestinaion, setCityDestination] = useState('');
+  const [cityDestination, setCityDestination] = useState('');
   const [dateDeparture, setDateDeparture] = useState('');
   const [dateArrival, setDateArrival] = useState('');
 
