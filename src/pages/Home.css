@@ -70,6 +70,22 @@ body{
   border-color: #B0B0B0;
 }
 
+.ticketButtonBox{
+  text-decoration: none;
+}
+
+.ticketCity{
+  font-size: 1.5rem;
+}
+
+.ticketArrow{
+  font-size: 1.5rem;
+}
+
+.ticketPrice{
+  font-size: 1.6rem;
+}
+
 .passengersSelectBox{
   margin-top: 2rem;
 }
