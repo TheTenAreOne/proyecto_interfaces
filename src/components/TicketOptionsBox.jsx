@@ -38,10 +38,13 @@ function TicketOptionsBox(props){
           </div>
         </div>
         <div className='row'>
-          <div className='col'>
+          <div className='col-5'>
             <CitySelectBox labelText='Origen'/>
           </div>
-          <div className='col'>
+          <div className='col-2'>
+            <div className='cityArrow'>&#129050;</div>
+          </div>
+          <div className='col-5'>
             <CitySelectBox labelText='Destino'/>
           </div>
         </div>

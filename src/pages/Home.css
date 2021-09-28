@@ -21,6 +21,13 @@ body{
 .citySelectBox{
   margin-top: 1rem;
 }
+.cityInputBox{
+  width: 80%;
+}
+.cityArrow{
+  margin-top: 1.2rem;
+  font-size: 3rem;
+}
 
 .dateSelectBox{
   margin-top: 1rem;
@@ -60,7 +67,7 @@ body{
 
 .passengerInputBox{
   font-size: 2.5rem;
-  width: 80%;
+  width: 85%;
 }
 
 .seeBack{

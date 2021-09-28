@@ -7,7 +7,7 @@ function CitySelectBox(props){
     <div className='citySelectBox'>
         <form action=''>
           <label htmlFor='cityOrigin'>{props.labelText}</label><br/>
-          <input type='text' id='cityOrigin' name='origin'></input>
+          <input className='cityInputBox' type='text' id='cityOrigin' name='origin'></input>
         </form>
     </div>
   );
