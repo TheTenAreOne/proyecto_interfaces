@@ -4,7 +4,10 @@ import OneOptionButton from './OneOptionButton';
 import SearchButton from './SearchButton';
 import CitySelectBox from './CitySelectBox';
 import DateSelectBox from './DateSelectBox';
+import PassengersSelectBox from './PassengersSelectBox'
 import React, { useState } from 'react';
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 
 function TicketOptionsBox(props){
 
@@ -43,11 +46,12 @@ function TicketOptionsBox(props){
           </div>
         </div>
         <div className='row'>
-          <div className='col'>
+          <div className='col-6'>
             <DateSelectBox labelText='Fecha ida'/>
-          </div>
-          <div className='col'>
             <DateSelectBox labelText='Fecha vuelta'/>
+          </div>
+          <div className='col-6'>
+            <PassengersSelectBox labelText='Pasajeros' />
           </div>
         </div>
         <div className='row'>
